@@ -1,0 +1,1870 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db96c384-da3c-4fe1-bca1-f7d376ec4fa9")
+	(paper "A4")
+	(title_block
+		(title "PTH Resistor size guide")
+		(date "2026-03-14")
+		(rev "1.0")
+		(company "Erik Brenn")
+	)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 46.99 26.67) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b086daf-c5ec-4e9f-97c4-5aa4c8170805")
+	)
+	(wire
+		(pts
+			(xy 66.04 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfd3f98-3148-4e31-afec-31c0e9299ed2")
+	)
+	(wire
+		(pts
+			(xy 46.99 43.18) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9d0209-e5de-4a97-8d5e-3663ab856e5e")
+	)
+	(wire
+		(pts
+			(xy 86.36 43.18) (xy 97.155 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acee57f-3ba6-4d9b-9af5-9478d039ff72")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 58.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747cc491-fdce-465f-9cfb-8bdff258e6b9")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.925) (xy 97.155 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ebf006-9ab7-47bc-bdc2-33d260268e75")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c4d0a8-bec5-4668-b4f9-eda2b8c8dd97")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.645) (xy 58.42 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec1cc04-8ef6-41db-a898-2a68250cff8e")
+	)
+	(wire
+		(pts
+			(xy 46.99 34.925) (xy 58.42 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c726e0ed-f6c4-4c6b-935c-525232c57df2")
+	)
+	(wire
+		(pts
+			(xy 66.04 34.925) (xy 78.74 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73530d2-e0d2-48c6-9dcb-a99b5b0aeed9")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.645) (xy 78.74 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bf9e8a-509b-4502-bb47-138428f0e0f0")
+	)
+	(wire
+		(pts
+			(xy 66.04 50.8) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fc0ca7-f493-40fe-8e39-6662c8f7618d")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d771a6c3-700a-4132-ae54-9c8396d6d42c")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 78.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d3b173-56ae-462e-a885-e9f96aa1ed53")
+	)
+	(wire
+		(pts
+			(xy 66.04 26.67) (xy 78.74 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df049d22-c521-4453-82d7-ec8d9798aa1e")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f14f08-c5eb-41ce-927c-5915d48da59f")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 80.645 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19b589e1-d1c0-48fb-81b8-44947dade127")
+		(property "Reference" "R22"
+			(at 62.23 75.4845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 83.3812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal"
+			(at 62.23 78.867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L17.0_D6.0_P25.40"
+			(at 62.23 77.9088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "817f877d-de02-4012-936d-a822ab23120c")
+		)
+		(pin "2"
+			(uuid "bdeb13d9-3012-4e40-9af4-c75c48a0961f")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d37fe2-6e33-43e1-bc44-926c4f537770")
+		(property "Reference" "R16"
+			(at 62.23 53.2595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 61.1562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal"
+			(at 62.23 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L15.5_D5.0_P25.40"
+			(at 62.23 55.6838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "146feec8-baf0-44fd-a0de-6bb1b26cfb83")
+		)
+		(pin "2"
+			(uuid "1a0646dc-52ce-44e3-a929-8fc78b37b133")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "289ca8d3-c15d-44ce-bb87-09c3c3a47839")
+		(property "Reference" "R15"
+			(at 43.18 53.2595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 61.1562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 43.18 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L15.5_D5.0_P20.32"
+			(at 43.18 55.6838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d2eb570-4e8d-4681-a304-04957e92b211")
+		)
+		(pin "2"
+			(uuid "d4bb507f-6c8f-4a7b-86f0-76ad8b97daae")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 34.925 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c434e91-e4f3-4948-82e6-a9f936dee192")
+		(property "Reference" "R5"
+			(at 62.23 29.7645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 37.6612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 62.23 33.147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L6.3_D2.5_P10.16"
+			(at 62.865 32.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e76b0b05-fde9-49cd-98db-f47e24747117")
+		)
+		(pin "2"
+			(uuid "21da040d-5f5d-43d7-9e21-ffdb3ae70d80")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.965 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "326b9dc4-b8a3-402a-97d9-015abd9ec86b")
+		(property "Reference" "R11"
+			(at 100.965 38.0195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 100.965 45.9162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal"
+			(at 100.965 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.965 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L9.9_D3.6_P25.4"
+			(at 100.965 40.4438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5c77db6-8fec-4694-a677-b0076fcfa058")
+		)
+		(pin "2"
+			(uuid "2b875319-da8c-4859-9a81-0cfd11188dbe")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b42d375-d04d-4167-97e9-5eed0d76b2dc")
+		(property "Reference" "R14"
+			(at 82.55 45.6395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 53.5362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P25.40mm_Horizontal"
+			(at 82.55 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L11.9_D4.5_P25.40"
+			(at 82.55 48.0638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59fd1f7f-e062-4516-af0c-5234c403aaae")
+		)
+		(pin "2"
+			(uuid "87c09fb6-cbc0-45c0-9c64-59e3e6570640")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a55db6f-369d-4a34-928c-febd7d41b15e")
+		(property "Reference" "R9"
+			(at 62.23 38.0195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 45.9162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+			(at 62.23 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L9.9_D3.6_P15.24"
+			(at 62.23 40.4438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96fef04c-b664-4a1d-8f91-1e146e5cc56f")
+		)
+		(pin "2"
+			(uuid "72af4a7a-c95f-4703-9b2e-2c52dd225ed2")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 80.645 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68b0b5d5-eca0-4e69-afd9-227d27205ec8")
+		(property "Reference" "R21"
+			(at 43.18 75.4845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 83.3812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 43.18 78.867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L17.0_D6.0_P20.32"
+			(at 43.18 77.9088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9644ec89-9a19-47e8-8ca3-89614ae3f890")
+		)
+		(pin "2"
+			(uuid "3c26c37c-96a4-485d-853c-e3977bb4e74e")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 34.925 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "696edcb3-341e-404f-a3a2-0f31dc019966")
+		(property "Reference" "R6"
+			(at 82.55 29.7645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 37.6612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 82.55 33.147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L6.3_D2.5_P15.24"
+			(at 82.55 32.1888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23c8c7a4-06dd-4f9a-8e38-9168224aab77")
+		)
+		(pin "2"
+			(uuid "3e5d4351-9b3c-44b1-b879-24217887c6ad")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d900854-0644-4158-a0bd-295d6fb4fa7b")
+		(property "Reference" "R13"
+			(at 62.23 45.6395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 53.5362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+			(at 62.23 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L11.9_D4.5_P20.32"
+			(at 62.23 48.0638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88595962-e79e-4d82-8176-1f00ebe0be77")
+		)
+		(pin "2"
+			(uuid "5251e7c2-27ab-4f50-a5bc-04fa0ae8017d")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 34.925 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79ada17d-f850-41a4-bb6b-164a40a2d773")
+		(property "Reference" "R4"
+			(at 43.18 29.7645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 32.1888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 43.18 33.147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L6.3_D2.5_P7.62"
+			(at 43.815 32.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b742bbc-078d-4240-9688-d10c92bb7d9f")
+		)
+		(pin "2"
+			(uuid "96b0f933-b906-4335-89f6-913b4a9c2afc")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d8e68e0-97d7-4a63-93eb-b24d8db14528")
+		(property "Reference" "R2"
+			(at 62.23 22.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 63.4421 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 62.23 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L3.6_D1.6_P7.62"
+			(at 63.5 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cbc7619-f0c6-4651-8a6c-8fdcc7ac5f54")
+		)
+		(pin "2"
+			(uuid "8fbed597-40af-4efd-a74c-4b9eeb4bc475")
+		)
+		(instances
+			(project ""
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "940a5fa0-686b-42e2-a267-d9c474dda60e")
+		(property "Reference" "R12"
+			(at 43.18 45.6395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 53.5362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+			(at 43.18 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L11.9_D4.5_P15.24"
+			(at 43.18 48.0638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d520b5e5-b3ad-4282-b1f0-5f87615bc4c1")
+		)
+		(pin "2"
+			(uuid "b19a5e84-0894-4297-8c35-b550b0fe5883")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.965 34.925 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a356d02a-cf6c-4b6f-9742-b4742f87864e")
+		(property "Reference" "R7"
+			(at 100.965 29.7645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 100.965 37.6612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 100.965 33.147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.965 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L9.0_D3.2_P12.7"
+			(at 100.965 32.1888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08d2b70e-4882-4cef-bcd4-452a7c3fc5be")
+		)
+		(pin "2"
+			(uuid "0f403a80-118c-47d0-ab09-0f7a4bf10443")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4d8c692-6c4e-4ef5-9c77-bb9817d57542")
+		(property "Reference" "R18"
+			(at 43.18 65.9595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 73.8562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+			(at 43.18 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L14.3_D5.7_P15.24"
+			(at 43.18 68.3838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98042396-3f93-4b6b-bda5-4bb405fe68ee")
+		)
+		(pin "2"
+			(uuid "88c0b035-2a3a-4be4-8d2c-50718446eaab")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 80.645 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd7f22d-7b37-45f7-8714-dbca157552cc")
+		(property "Reference" "R23"
+			(at 82.55 75.4845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 83.3812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal"
+			(at 82.55 78.867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L17.0_D6.0_P30.48"
+			(at 82.55 77.9088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ed8457c-1e42-4875-a732-7c58d9f97c81")
+		)
+		(pin "2"
+			(uuid "6b9f7454-3cf0-4c0a-8d15-da6eaa13945b")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf40143-e593-4a5f-9f7c-c2123d05122d")
+		(property "Reference" "R1"
+			(at 43.18 22.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 44.3921 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 43.18 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L3.6_D1.6_P5.08"
+			(at 44.45 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4bdb0c0-c9ff-4be6-996b-24b33ea1c15d")
+		)
+		(pin "2"
+			(uuid "a220f423-f3c0-4390-b9d9-9562115bbcf3")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71ad9ba-b18a-432d-bca5-441efa77c13b")
+		(property "Reference" "R20"
+			(at 82.55 65.9595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 73.8562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P25.40mm_Horizontal"
+			(at 82.55 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L14.3_D5.7_P25.40"
+			(at 82.55 68.3838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b3b1e7a-2f8a-4e6d-9db6-d2852279fc10")
+		)
+		(pin "2"
+			(uuid "b49c6753-53a8-4598-9109-b22f0fc522a1")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baec1d17-baa6-4651-8405-c318853fedc4")
+		(property "Reference" "R3"
+			(at 82.55 22.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 83.7621 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 82.55 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L3.6_D1.6_P7.62"
+			(at 83.82 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab51c745-a663-484f-915e-ba81f47ddafa")
+		)
+		(pin "2"
+			(uuid "c3bd6152-c998-4f4a-8f83-9a4d5b0b3451")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb0b4fd-e981-4791-9da2-ca522eb472b9")
+		(property "Reference" "R19"
+			(at 62.23 65.9595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 73.8562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal"
+			(at 62.23 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L14.3_D5.7_P20.32"
+			(at 62.23 68.3838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "750f9671-3a73-4e51-89ad-66869fa54b20")
+		)
+		(pin "2"
+			(uuid "11284406-988e-4f01-9b1a-628da3f00ba1")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21b6f9b-035e-4450-bfce-b41de9548697")
+		(property "Reference" "R8"
+			(at 43.18 38.0195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 45.9162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 43.18 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L9.9_D3.6_P12.7"
+			(at 43.18 40.4438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7995697f-7511-46cb-81cd-dae125010f63")
+		)
+		(pin "2"
+			(uuid "1f706f1b-f82d-4729-b547-753b7a949322")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c5be25-483d-425e-bc79-11393484bc0b")
+		(property "Reference" "R10"
+			(at 82.55 38.0195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 45.9162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal"
+			(at 82.55 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L9.9_D3.6_P20.32"
+			(at 82.55 40.4438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c92447d-7242-41fa-871c-dd008db51efb")
+		)
+		(pin "2"
+			(uuid "052b20ce-ce14-404a-95ee-d9d2ac774330")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df67677b-4fdc-4950-b7b2-2b97f1b987a9")
+		(property "Reference" "R17"
+			(at 82.55 53.2595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 61.1562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P30.48mm_Horizontal"
+			(at 82.55 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L15.5_D5.0_P30.48"
+			(at 82.55 55.6838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adbcf348-b3f3-4fda-8861-e0e5679004e9")
+		)
+		(pin "2"
+			(uuid "e2d0dda8-cb99-4ffb-8d6c-2ad6fef77c59")
+		)
+		(instances
+			(project "kicad-test"
+				(path "/db96c384-da3c-4fe1-bca1-f7d376ec4fa9"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
